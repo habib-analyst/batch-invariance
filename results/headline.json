@@ -1,0 +1,39 @@
+{
+  "ablation_candidates": {
+    "both": 182,
+    "dynamic_only": 27,
+    "missed_by_both": 0,
+    "n_variant_candidates": 240,
+    "static_only": 31
+  },
+  "all_gates_pass": true,
+  "baseline_pass_rate": 0.35,
+  "benign_false_rejection_rate": 0.0,
+  "benign_rejected": 0,
+  "benign_total": 360,
+  "disease_denominator": 240,
+  "disease_numerator": 209,
+  "disease_rate": 0.8708,
+  "gated_empty_tasks": 0,
+  "gated_pass_rate": 1.0,
+  "gates": {
+    "G2_disease_ge_80": true,
+    "G3a_ci_lower_gt_0": true,
+    "G3a_margin_ge_15pp": true,
+    "G3b_retention_ge_65": true,
+    "G3c_false_rejection_le_10": true
+  },
+  "geomean_baseline_speedup": 33.0767,
+  "geomean_gated_speedup": 26.1361,
+  "margin_ci95": [
+    55.83,
+    73.33
+  ],
+  "margin_pp": 65.0,
+  "n_tasks": 120,
+  "retention_ci95": [
+    74.93,
+    83.13
+  ],
+  "speedup_retention_pct": 79.02
+}

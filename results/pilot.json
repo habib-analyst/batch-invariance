@@ -1,0 +1,41 @@
+{
+  "analyzer_corpus_verdicts": {
+    "inv_alias": "PASS",
+    "inv_benign_shape": "PASS",
+    "inv_fixed": "PASS",
+    "inv_tile_const": "PASS",
+    "var_algo_select": "REJECT",
+    "var_exec": "UNKNOWN",
+    "var_helper": "REJECT",
+    "var_loop": "REJECT",
+    "var_partition": "REJECT",
+    "var_shape": "REJECT",
+    "var_threshold": "REJECT",
+    "var_tile": "REJECT"
+  },
+  "divergence_rates_variant_partition": {
+    "mixed": {
+      "divergent": 200,
+      "rate": 1.0,
+      "trials": 200
+    },
+    "normal": {
+      "divergent": 200,
+      "rate": 1.0,
+      "trials": 200
+    },
+    "uniform": {
+      "divergent": 199,
+      "rate": 0.995,
+      "trials": 200
+    }
+  },
+  "pilot_head_to_head": {
+    "baseline_pass_rate": 0.3,
+    "gated_pass_rate": 1.0,
+    "margin_pp": 70.0,
+    "speedup_retention_pct": 74.95606504611136,
+    "tasks": 30
+  },
+  "pilot_seeds": "base 1000 (never reused in head-to-head)"
+}
